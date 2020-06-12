@@ -2,7 +2,7 @@
 
 DUMP_FILE_NAME="backupOn$(date +%Y-%m-%d-%H-%M).dump"
 echo "Creating dump: $DUMP_FILE_NAME"
-
+mkdir pg_backup
 cd pg_backup || exit 1
 
 pg_dump -C -w --format=c --blobs >"$DUMP_FILE_NAME"
