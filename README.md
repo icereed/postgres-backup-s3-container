@@ -1,5 +1,7 @@
 # Container to create PostgreSQL Backups
 
+> `docker pull icereed/postgres-backup-s3-container:latest`
+
 Minimalisitic container for backing up PostgreSQL databases.
 
 <!-- TOC -->
